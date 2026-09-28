@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Warm Ink — editorial blog">
+  <defs>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#262626" opacity="0.14"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#f8f5ef"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <circle cx="940" cy="300" r="150" fill="#fd4d25"/>
+  <circle cx="940" cy="300" r="190" fill="none" stroke="#262626" stroke-opacity="0.55" stroke-width="2"/>
+  <line x1="80" y1="540" x2="1120" y2="540" stroke="#d6d2cb" stroke-width="2"/>
+  <text x="80" y="150" font-family="Georgia, serif" font-size="84" fill="#262626">Warm Editorial Ink</text>
+  <text x="82" y="205" font-family="Menlo, Consolas, monospace" font-size="22" letter-spacing="6" fill="#777777">// A PERSONAL JOURNAL</text>
+  <text x="80" y="500" font-family="Menlo, Consolas, monospace" font-size="20" fill="#777777">markdown in · static ink out</text>
+</svg>

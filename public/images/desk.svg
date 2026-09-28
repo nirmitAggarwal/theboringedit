@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="An editorial desk with a lamp, coffee and paper">
+  <defs>
+    <pattern id="desk-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#desk-dots)"/>
+
+  <!-- wall art: small orange circle echoing the brand -->
+  <circle cx="880" cy="180" r="56" fill="#fd4d25"/>
+  <circle cx="880" cy="180" r="82" fill="none" stroke="#262626" stroke-opacity="0.4" stroke-width="2"/>
+
+  <!-- desk surface -->
+  <rect x="120" y="520" width="960" height="26" fill="#262626"/>
+  <rect x="180" y="546" width="24" height="180" fill="#262626" opacity="0.85"/>
+  <rect x="996" y="546" width="24" height="180" fill="#262626" opacity="0.85"/>
+  <line x1="120" y1="742" x2="1080" y2="742" stroke="#d6d2cb" stroke-width="2"/>
+
+  <!-- lamp -->
+  <path d="M300 520 L300 400 L360 400" stroke="#262626" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M330 340 L440 340 L410 412 L360 412 Z" fill="#262626"/>
+  <circle cx="388" cy="426" r="14" fill="#fd4d25"/>
+
+  <!-- coffee cup with steam -->
+  <rect x="560" y="462" width="76" height="58" rx="6" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <path d="M636 474 q30 4 0 34" stroke="#262626" stroke-width="4" fill="none"/>
+  <path d="M580 436 q-8 -16 6 -30 M606 436 q-8 -16 6 -30" stroke="#262626" stroke-opacity="0.5" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- sheet of paper with ruled lines -->
+  <rect x="740" y="430" width="180" height="90" fill="#fefefe" stroke="#262626" stroke-width="3" transform="rotate(-4 830 475)"/>
+  <line x1="760" y1="456" x2="890" y2="450" stroke="#777777" stroke-width="3" transform="rotate(-4 830 475)"/>
+  <line x1="762" y1="478" x2="892" y2="472" stroke="#777777" stroke-width="3" transform="rotate(-4 830 475)"/>
+  <line x1="764" y1="500" x2="860" y2="495" stroke="#fd4d25" stroke-width="3" transform="rotate(-4 830 475)"/>
+
+  <!-- pen resting beside paper -->
+  <rect x="950" y="490" width="120" height="10" rx="5" fill="#262626" transform="rotate(18 950 490)"/>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 01 — THE DESK</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="A winding journey path with numbered waypoints">
+  <defs>
+    <pattern id="journey-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#journey-dots)"/>
+
+  <!-- the winding road -->
+  <path d="M120 640 C 300 640 320 460 480 460 S 700 600 820 480 S 960 240 1080 200"
+        fill="none" stroke="#262626" stroke-width="4" stroke-dasharray="2 16" stroke-linecap="round"/>
+
+  <!-- waypoint 01 -->
+  <circle cx="120" cy="640" r="30" fill="#fefefe" stroke="#262626" stroke-width="3"/>
+  <text x="120" y="648" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" fill="#262626">01</text>
+
+  <!-- waypoint 02 -->
+  <circle cx="480" cy="460" r="30" fill="#fefefe" stroke="#262626" stroke-width="3"/>
+  <text x="480" y="468" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" fill="#262626">02</text>
+
+  <!-- waypoint 03 -->
+  <circle cx="820" cy="480" r="30" fill="#fefefe" stroke="#262626" stroke-width="3"/>
+  <text x="820" y="488" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" fill="#262626">03</text>
+
+  <!-- destination: the loud orange -->
+  <circle cx="1080" cy="200" r="34" fill="#fd4d25"/>
+  <circle cx="1080" cy="200" r="52" fill="none" stroke="#262626" stroke-opacity="0.45" stroke-width="2"/>
+  <text x="1080" y="208" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" fill="#fefefe">04</text>
+
+  <!-- a little flag at the start -->
+  <line x1="120" y1="610" x2="120" y2="560" stroke="#262626" stroke-width="4"/>
+  <path d="M120 560 L164 572 L120 584 Z" fill="#fd4d25"/>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 02 — THE ROUTE</text>
+</svg>

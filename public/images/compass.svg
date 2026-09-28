@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="A paper compass rose pointing north">
+  <defs>
+    <pattern id="compass-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#compass-dots)"/>
+
+  <!-- compass rings -->
+  <circle cx="600" cy="420" r="220" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <circle cx="600" cy="420" r="168" fill="none" stroke="#262626" stroke-opacity="0.35" stroke-width="2"/>
+  <circle cx="600" cy="420" r="96" fill="none" stroke="#d6d2cb" stroke-width="2" stroke-dasharray="4 10"/>
+
+  <!-- cardinal points -->
+  <line x1="600" y1="220" x2="600" y2="620" stroke="#777777" stroke-width="2" stroke-dasharray="3 12"/>
+  <line x1="400" y1="420" x2="800" y2="420" stroke="#777777" stroke-width="2" stroke-dasharray="3 12"/>
+
+  <!-- needle: north in ink, south faded -->
+  <path d="M600 262 L634 420 L600 396 L566 420 Z" fill="#262626"/>
+  <path d="M600 578 L634 420 L600 444 L566 420 Z" fill="#262626" opacity="0.2"/>
+  <circle cx="600" cy="420" r="18" fill="#fd4d25"/>
+  <circle cx="600" cy="420" r="30" fill="none" stroke="#262626" stroke-width="3"/>
+
+  <!-- N marker, loud -->
+  <text x="600" y="196" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#fd4d25">N</text>
+  <text x="600" y="692" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#777777">S</text>
+  <text x="368" y="432" text-anchor="end" font-family="Georgia, serif" font-size="30" fill="#777777">W</text>
+  <text x="832" y="432" font-family="Georgia, serif" font-size="30" fill="#777777">E</text>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 03 — THE COMPASS</text>
+</svg>

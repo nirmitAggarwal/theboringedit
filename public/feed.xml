@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Boring Edit</title>
+    <link>https://www.theboringedit.in</link>
+    <description>A quiet, personal, editorial blog by Nirmit Aggarwal — warm paper, ink text, one loud orange. Written in markdown, compiled to static ink.</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Sep 2026 12:00:00 GMT</lastBuildDate>
+    <generator>The Boring Edit static pipeline</generator>
+    <atom:link href="https://www.theboringedit.in/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, The Boring Edit</title>
+      <link>https://www.theboringedit.in/blog/hello-the-boring-edit</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/hello-the-boring-edit</guid>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Welcome to The Boring Edit — a calm corner of the internet where I document what I&apos;m learning, building, reading and thinking about. Here&apos;s what lives here and why it exists.</description>
+      <category>meta</category>
+      <category>writing</category>
+    </item>
+    <item>
+      <title>Introduction to Rust: why it exists, who runs on it, and how to start today</title>
+      <link>https://www.theboringedit.in/blog/introduction-to-rust</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/introduction-to-rust</guid>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Why Rust exists, the memory problems it eliminates, which big organisations and projects run on it, how to install it in minutes, and the communities that support it.</description>
+      <category>rust</category>
+      <category>basics</category>
+      <category>getting-started</category>
+    </item>
+    <item>
+      <title>Rusty&apos;s Hello World!</title>
+      <link>https://www.theboringedit.in/blog/rustys-hello-world</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/rustys-hello-world</guid>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 GMT</pubDate>
+      <description>A detailed tour of Rust&apos;s printing macros — print!, println!, eprint!, eprintln!, write! and format! — plus the formatting engine: positional and named args, padding, radix, and Display vs Debug with code-output examples.</description>
+      <category>rust</category>
+      <category>basics</category>
+      <category>macros</category>
+    </item>
+  </channel>
+</rss>

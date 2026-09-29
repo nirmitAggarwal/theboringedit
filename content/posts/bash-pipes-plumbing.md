@@ -140,6 +140,6 @@ Next: [part 06 — Labelled Boxes](/blog/bash-labelled-boxes), where we teach
 the shell to *remember* — variables, quoting, `$PATH`, and the special runes
 `$1`, `$?`, `$#`.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 05 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 05 of 15 ·
 > Previous: [The Hunters](/blog/bash-the-hunters) · Next: [Labelled
 > Boxes](/blog/bash-labelled-boxes)

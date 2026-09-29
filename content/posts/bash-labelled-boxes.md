@@ -144,6 +144,6 @@ Next: [part 07 — Forks in the Road](/blog/bash-forks-in-the-road), where
 scripts stop reciting and start *deciding*: `if`, `test`, `[[ ]]`, and the
 gloriously readable `case`.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 06 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 06 of 15 ·
 > Previous: [Pipes & Plumbing](/blog/bash-pipes-plumbing) · Next: [Forks in
 > the Road](/blog/bash-forks-in-the-road)

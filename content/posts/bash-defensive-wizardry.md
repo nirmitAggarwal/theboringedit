@@ -158,6 +158,6 @@ Next: [part 12 — Jobs & Signals](/blog/bash-jobs-and-signals), where spells
 learn to run in the background, pause mid-flight, and be told to stop —
 politely, then less politely.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 11 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 11 of 15 ·
 > Previous: [Text Alchemy](/blog/bash-text-alchemy) · Next: [Jobs &
 > Signals](/blog/bash-jobs-and-signals)

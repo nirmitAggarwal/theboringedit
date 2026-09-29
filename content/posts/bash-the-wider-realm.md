@@ -180,6 +180,6 @@ Next: [part 15 — The Quest Board](/blog/bash-the-quest-board), the finale:
 six capstone projects that weld every part of this course into things you'll
 actually keep using.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 14 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 14 of 15 ·
 > Previous: [The Custom Grimoire](/blog/bash-the-custom-grimoire) · Next:
 > [The Quest Board](/blog/bash-the-quest-board)

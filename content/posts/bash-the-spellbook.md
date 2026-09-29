@@ -126,6 +126,6 @@ wc -l *.py               # count lines in all your Python files ( vanity, enable
 Next: [part 04 — The Hunters](/blog/bash-the-hunters), where `grep` and `find`
 track down any text and any file on the machine — no matter where they hide.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 03 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 03 of 15 ·
 > Previous: [On Every Machine](/blog/bash-on-every-machine) · Next: [The
 > Hunters](/blog/bash-the-hunters)

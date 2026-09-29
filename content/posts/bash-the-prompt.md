@@ -21,7 +21,7 @@ $
 That `$` is not decoration. It is a job interview question, asked fresh every
 time: *speak, and I shall do exactly what you say.*
 
-This is part 01 of the [Under Rated Tech](/tracks/bash-smash) bash crash
+This is part 01 of the [Wizardy of Bash](/tracks/bash-smash) bash crash
 course — fifteen parts that take you from "what is this thing" to writing
 scripts your future self will high-five. Today's prerequisites: a computer with
 a terminal. You already have one. Yes, even on Windows. Especially on Windows.
@@ -161,6 +161,6 @@ Next: [part 02 — Bash on Every Machine](/blog/bash-on-every-machine), where we
 get bash running on Windows without performing an exorcism, and build the
 keyboard habits that make you *fast*.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 01 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 01 of 15 ·
 > Previous: none, you stand at the gateway · Next: [Bash on Every
 > Machine](/blog/bash-on-every-machine)

@@ -158,6 +158,6 @@ Next: [part 09 — The Spell Factory](/blog/bash-the-spell-factory), where we
 stop writing spells and start *manufacturing* them: functions, arguments, and
 the scripts that finally get a name and a shebang.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 08 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 08 of 15 ·
 > Previous: [Forks in the Road](/blog/bash-forks-in-the-road) · Next: [The
 > Spell Factory](/blog/bash-the-spell-factory)

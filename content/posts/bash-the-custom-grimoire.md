@@ -163,6 +163,6 @@ Next: [part 14 — The Wider Realm](/blog/bash-the-wider-realm), where bash
 leaves your machine: ssh, cron, git hooks, and CI — the places shell skills
 compound into power.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 13 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 13 of 15 ·
 > Previous: [Jobs & Signals](/blog/bash-jobs-and-signals) · Next: [The
 > Wider Realm](/blog/bash-the-wider-realm)

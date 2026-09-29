@@ -203,6 +203,6 @@ the theme of this entire track.
 Next: [part 10 — Text Alchemy](/blog/bash-text-alchemy), the transmutation
 wing: `sed`, `awk`, `cut`, `sort`, `uniq` — turning raw text dregs into gold.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 09 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 09 of 15 ·
 > Previous: [The Loop](/blog/bash-the-loop) · Next: [Text
 > Alchemy](/blog/bash-text-alchemy)

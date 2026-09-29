@@ -154,6 +154,6 @@ Next: [part 13 — The Custom Grimoire](/blog/bash-the-custom-grimoire), where
 we edit `.bashrc` and make all of today's favourite spells permanent —
 aliases, functions, and a prompt that tells you things before you ask.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 12 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 12 of 15 ·
 > Previous: [Defensive Wizardry](/blog/bash-defensive-wizardry) · Next: [The
 > Custom Grimoire](/blog/bash-the-custom-grimoire)

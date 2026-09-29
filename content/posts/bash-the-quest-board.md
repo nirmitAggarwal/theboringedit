@@ -10,7 +10,7 @@ excerpt: "Part 15, the finale of the bash crash course: six complete capstone sc
 ---
 
 Fourteen parts ago, `$` was a strange rune and Ctrl+C was a prayer. Today it's
-the finale of the [Under Rated Tech](/tracks/bash-smash) bash crash
+the finale of the [Wizardy of Bash](/tracks/bash-smash) bash crash
 course, and there's nothing left to teach — only things to build. On the wall
 of the guild hall hangs the quest board. Six quests. Each one is a real,
 working script, and each is deliberately assembled from a specific set of
@@ -251,6 +251,6 @@ That's the whole course: prompt to pipelines, boxes to background jobs, wards
 to quests. Fifteen parts, one honestly under-rated truth — the shell was the
 real magic all along, and now it's *yours*. Go automate something you hate.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 15 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 15 of 15 ·
 > Previous: [The Wider Realm](/blog/bash-the-wider-realm) · Next: none — you
 > are the next part.

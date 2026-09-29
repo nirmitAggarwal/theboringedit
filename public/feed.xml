@@ -165,6 +165,16 @@
       <category>ci</category>
     </item>
     <item>
+      <title>Rusty&apos;s Type</title>
+      <link>https://www.theboringedit.in/blog/rustys-type</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/rustys-type</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 03 of the Rust crash course: every primitive type (integers, floats, bool, char, tuples, arrays), variables and shadowing, constants vs statics, and custom types with structs and enums — with code and output at every step.</description>
+      <category>rust</category>
+      <category>basics</category>
+      <category>types</category>
+    </item>
+    <item>
       <title>Hello, The Boring Edit</title>
       <link>https://www.theboringedit.in/blog/hello-the-boring-edit</link>
       <guid isPermaLink="true">https://www.theboringedit.in/blog/hello-the-boring-edit</guid>

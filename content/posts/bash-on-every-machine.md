@@ -138,6 +138,6 @@ Next: [part 03 — The Spellbook](/blog/bash-the-spellbook), where we learn the
 twentyish words that run the world, plus the wildcard runes that make them
 terrifyingly efficient.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 02 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 02 of 15 ·
 > Previous: [The Prompt](/blog/bash-the-prompt) · Next: [The
 > Spellbook](/blog/bash-the-spellbook)

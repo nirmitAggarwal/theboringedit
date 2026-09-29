@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Primitive type boxes on a shelf — i32, f64, bool, char — beside two cards showing a struct Dragon and an enum Shape, with an orange cog">
+  <defs>
+    <pattern id="type-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#type-dots)"/>
+
+  <!-- the cog: rust never sleeps -->
+  <g>
+    <rect x="1078" y="66" width="14" height="24" fill="#fd4d25" stroke="#262626" stroke-width="3"/>
+    <rect x="1078" y="66" width="14" height="24" fill="#fd4d25" stroke="#262626" stroke-width="3" transform="rotate(45 1085 115)"/>
+    <rect x="1078" y="66" width="14" height="24" fill="#fd4d25" stroke="#262626" stroke-width="3" transform="rotate(90 1085 115)"/>
+    <rect x="1078" y="66" width="14" height="24" fill="#fd4d25" stroke="#262626" stroke-width="3" transform="rotate(135 1085 115)"/>
+    <rect x="1078" y="66" width="14" height="24" fill="#fd4d25" stroke="#262626" stroke-width="3" transform="rotate(180 1085 115)"/>
+    <rect x="1078" y="66" width="14" height="24" fill="#fd4d25" stroke="#262626" stroke-width="3" transform="rotate(225 1085 115)"/>
+    <rect x="1078" y="66" width="14" height="24" fill="#fd4d25" stroke="#262626" stroke-width="3" transform="rotate(270 1085 115)"/>
+    <rect x="1078" y="66" width="14" height="24" fill="#fd4d25" stroke="#262626" stroke-width="3" transform="rotate(315 1085 115)"/>
+    <circle cx="1085" cy="115" r="27" fill="#fd4d25" stroke="#262626" stroke-width="3"/>
+    <circle cx="1085" cy="115" r="9" fill="#f8f5ef" stroke="#262626" stroke-width="3"/>
+  </g>
+  <path d="M1130 190 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z" fill="#fd4d25" opacity="0.5"/>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 03 — RUSTY'S TYPE</text>
+
+  <path d="M600 236 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z" fill="#262626" opacity="0.3"/>
+
+  <!-- group labels -->
+  <text x="130" y="252" font-family="Menlo, Consolas, monospace" font-size="18" letter-spacing="4" fill="#777777">PRIMITIVES</text>
+  <text x="640" y="252" font-family="Menlo, Consolas, monospace" font-size="18" letter-spacing="4" fill="#777777">YOUR OWN TYPES</text>
+
+  <!-- box: i32 -->
+  <rect x="185" y="266" width="110" height="40" rx="6" fill="#fd4d25"/>
+  <text x="240" y="293" font-family="Menlo, Consolas, monospace" font-size="20" fill="#f8f5ef" text-anchor="middle">i32</text>
+  <rect x="130" y="310" width="200" height="170" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="240" y="403" font-family="Menlo, Consolas, monospace" font-size="24" fill="#262626" text-anchor="middle">-42</text>
+
+  <!-- box: f64 -->
+  <rect x="425" y="266" width="110" height="40" rx="6" fill="#fd4d25"/>
+  <text x="480" y="293" font-family="Menlo, Consolas, monospace" font-size="20" fill="#f8f5ef" text-anchor="middle">f64</text>
+  <rect x="370" y="310" width="200" height="170" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="480" y="403" font-family="Menlo, Consolas, monospace" font-size="24" fill="#262626" text-anchor="middle">3.14</text>
+
+  <!-- box: bool -->
+  <rect x="185" y="496" width="110" height="40" rx="6" fill="#fd4d25"/>
+  <text x="240" y="523" font-family="Menlo, Consolas, monospace" font-size="20" fill="#f8f5ef" text-anchor="middle">bool</text>
+  <rect x="130" y="540" width="200" height="170" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="240" y="633" font-family="Menlo, Consolas, monospace" font-size="24" fill="#262626" text-anchor="middle">true</text>
+
+  <!-- box: char -->
+  <rect x="425" y="496" width="110" height="40" rx="6" fill="#fd4d25"/>
+  <text x="480" y="523" font-family="Menlo, Consolas, monospace" font-size="20" fill="#f8f5ef" text-anchor="middle">char</text>
+  <rect x="370" y="540" width="200" height="170" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="480" y="633" font-family="Menlo, Consolas, monospace" font-size="24" fill="#262626" text-anchor="middle">'ñ'</text>
+
+  <!-- shelf under the primitives -->
+  <rect x="110" y="718" width="480" height="14" fill="#262626"/>
+  <line x1="90" y1="754" x2="610" y2="754" stroke="#d6d2cb" stroke-width="2"/>
+
+  <!-- card: struct Dragon -->
+  <rect x="640" y="280" width="440" height="240" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="668" y="330" font-family="Menlo, Consolas, monospace" font-size="22"><tspan fill="#fd4d25">struct</tspan><tspan fill="#262626"> Dragon {</tspan></text>
+  <text x="700" y="368" font-family="Menlo, Consolas, monospace" font-size="21" fill="#262626">name: "Smaug",</text>
+  <text x="700" y="406" font-family="Menlo, Consolas, monospace" font-size="21" fill="#262626">wingspan: 12.5,</text>
+  <text x="700" y="444" font-family="Menlo, Consolas, monospace" font-size="21" fill="#262626">fire: true,</text>
+  <text x="668" y="482" font-family="Menlo, Consolas, monospace" font-size="22" fill="#262626">}</text>
+
+  <!-- card: enum Shape -->
+  <rect x="640" y="560" width="440" height="210" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="668" y="600" font-family="Menlo, Consolas, monospace" font-size="22"><tspan fill="#fd4d25">enum</tspan><tspan fill="#262626"> Shape {</tspan></text>
+  <text x="700" y="638" font-family="Menlo, Consolas, monospace" font-size="21" fill="#262626">Circle(f64),</text>
+  <text x="700" y="676" font-family="Menlo, Consolas, monospace" font-size="21" fill="#262626">Rect { w, h },</text>
+  <text x="700" y="714" font-family="Menlo, Consolas, monospace" font-size="21" fill="#262626">Triangle(a,b,c),</text>
+  <text x="668" y="752" font-family="Menlo, Consolas, monospace" font-size="22" fill="#262626">}</text>
+</svg>

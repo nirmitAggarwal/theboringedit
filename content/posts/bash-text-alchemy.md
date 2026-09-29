@@ -187,6 +187,6 @@ Next: [part 11 — Defensive Wizardry](/blog/bash-defensive-wizardry), the
 warding chapter: `set -euo pipefail`, `trap`, and debugging with `bash -x` —
 because a spell you can't trust is a spell that deletes your backups at 3 AM.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 10 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 10 of 15 ·
 > Previous: [The Spell Factory](/blog/bash-the-spell-factory) · Next:
 > [Defensive Wizardry](/blog/bash-defensive-wizardry)

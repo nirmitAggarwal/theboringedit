@@ -114,6 +114,6 @@ Next: [part 05 — Pipes & Plumbing](/blog/bash-pipes-plumbing), where we stop
 hunting alone and start chaining commands into pipelines — the shell's true
 superpower.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 04 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 04 of 15 ·
 > Previous: [The Spellbook](/blog/bash-the-spellbook) · Next: [Pipes &
 > Plumbing](/blog/bash-pipes-plumbing)

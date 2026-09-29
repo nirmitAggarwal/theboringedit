@@ -171,6 +171,6 @@ Next: [part 08 — The Loop](/blog/bash-the-loop), where one spell learns to
 cast itself a thousand times — `for`, `while`, and the file-iterating moves
 that define the shell.
 
-> Filed under [Under Rated Tech](/tracks/bash-smash) — part 07 of 15 ·
+> Filed under [Wizardy of Bash](/tracks/bash-smash) — part 07 of 15 ·
 > Previous: [Labelled Boxes](/blog/bash-labelled-boxes) · Next: [The
 > Loop](/blog/bash-the-loop)

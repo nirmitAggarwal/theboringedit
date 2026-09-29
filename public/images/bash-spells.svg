@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="An unrolled spellbook scroll listing everyday bash commands as incantations">
+  <defs>
+    <pattern id="spells-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#spells-dots)"/>
+
+  <!-- scroll body -->
+  <rect x="340" y="238" width="520" height="368" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <!-- top + bottom rolls -->
+  <rect x="312" y="206" width="576" height="42" rx="21" fill="#262626"/>
+  <circle cx="306" cy="227" r="15" fill="#262626"/>
+  <circle cx="894" cy="227" r="15" fill="#262626"/>
+  <rect x="312" y="596" width="576" height="42" rx="21" fill="#262626"/>
+  <circle cx="306" cy="617" r="15" fill="#262626"/>
+  <circle cx="894" cy="617" r="15" fill="#262626"/>
+
+  <!-- incantations -->
+  <text x="386" y="300" font-family="Menlo, Consolas, monospace" font-size="22"><tspan fill="#7c3aed">pwd</tspan><tspan fill="#777777">   — where am I, really</tspan></text>
+  <text x="386" y="348" font-family="Menlo, Consolas, monospace" font-size="22"><tspan fill="#7c3aed">ls</tspan><tspan fill="#777777">    — what's in here</tspan></text>
+  <text x="386" y="396" font-family="Menlo, Consolas, monospace" font-size="22"><tspan fill="#7c3aed">cd</tspan><tspan fill="#777777">    — go somewhere</tspan></text>
+  <text x="386" y="444" font-family="Menlo, Consolas, monospace" font-size="22"><tspan fill="#7c3aed">cat</tspan><tspan fill="#777777">   — read the scroll aloud</tspan></text>
+  <text x="386" y="492" font-family="Menlo, Consolas, monospace" font-size="22"><tspan fill="#7c3aed">mv</tspan><tspan fill="#777777">    — move it. quietly.</tspan></text>
+  <text x="386" y="540" font-family="Menlo, Consolas, monospace" font-size="22"><tspan fill="#7c3aed">grep</tspan><tspan fill="#777777">  — summon matching lines</tspan></text>
+
+  <!-- sparkles -->
+  <path d="M275 420 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z" fill="#7c3aed" opacity="0.8"/>
+  <path d="M935 380 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4 Z" fill="#262626" opacity="0.45"/>
+  <circle cx="920" cy="160" r="5" fill="#7c3aed" opacity="0.6"/>
+  <circle cx="250" cy="160" r="4" fill="#262626" opacity="0.35"/>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 03 — THE SPELLBOOK</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="A command box labeled if leads to a diamond test, branching into a then path and an else path that reunite at a box labeled fi">
+  <defs>
+    <pattern id="fork-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#fork-dots)"/>
+
+  <!-- sparkles -->
+  <path d="M420 200 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 Z" fill="#7c3aed" opacity="0.85"/>
+  <path d="M1000 240 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5 Z" fill="#262626" opacity="0.5"/>
+  <circle cx="560" cy="640" r="5" fill="#262626" opacity="0.35"/>
+
+  <!-- if box -->
+  <rect x="90" y="370" width="150" height="80" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="165" y="420" font-family="Menlo, Consolas, monospace" font-size="24" fill="#262626" text-anchor="middle">if</text>
+
+  <!-- arrow to diamond -->
+  <line x1="240" y1="410" x2="300" y2="410" stroke="#262626" stroke-width="4"/>
+  <path d="M300 410 l-16 -9 l0 18 Z" fill="#262626"/>
+
+  <!-- the test diamond -->
+  <polygon points="440,310 580,410 440,510 300,410" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="440" y="402" font-family="Menlo, Consolas, monospace" font-size="18" fill="#262626" text-anchor="middle">[[ -f</text>
+  <text x="440" y="428" font-family="Menlo, Consolas, monospace" font-size="18" fill="#262626" text-anchor="middle">dragon ]]</text>
+  <text x="440" y="548" font-family="Menlo, Consolas, monospace" font-size="15" fill="#777777" text-anchor="middle">did it exit zero?</text>
+
+  <!-- then branch -->
+  <path d="M580 410 C 660 410, 660 290, 740 290" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  <path d="M740 290 l-16 -9 l0 18 Z" fill="#7c3aed"/>
+  <text x="662" y="330" font-family="Menlo, Consolas, monospace" font-size="16" fill="#7c3aed">exit 0</text>
+  <rect x="745" y="250" width="260" height="80" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="875" y="288" font-family="Menlo, Consolas, monospace" font-size="18" fill="#262626" text-anchor="middle">then</text>
+  <text x="875" y="314" font-family="Menlo, Consolas, monospace" font-size="15" fill="#7c3aed" text-anchor="middle">pack the cloak</text>
+
+  <!-- else branch -->
+  <path d="M580 410 C 660 410, 660 540, 740 540" fill="none" stroke="#777777" stroke-width="4" stroke-dasharray="9 7"/>
+  <path d="M740 540 l-16 -9 l0 18 Z" fill="#777777"/>
+  <text x="662" y="512" font-family="Menlo, Consolas, monospace" font-size="16" fill="#777777">exit 1</text>
+  <rect x="745" y="500" width="260" height="80" rx="10" fill="#f8f5ef" stroke="#777777" stroke-width="4" stroke-dasharray="10 8"/>
+  <text x="875" y="538" font-family="Menlo, Consolas, monospace" font-size="18" fill="#777777" text-anchor="middle">else</text>
+  <text x="875" y="564" font-family="Menlo, Consolas, monospace" font-size="15" fill="#777777" text-anchor="middle">take snacks</text>
+
+  <!-- converge to fi -->
+  <path d="M1005 290 C 1060 290, 1060 388, 1035 388" fill="none" stroke="#262626" stroke-width="4"/>
+  <path d="M1005 540 C 1060 540, 1060 432, 1035 432" fill="none" stroke="#262626" stroke-width="4"/>
+  <rect x="1035" y="370" width="110" height="80" rx="10" fill="#262626"/>
+  <text x="1090" y="420" font-family="Menlo, Consolas, monospace" font-size="24" fill="#f8f5ef" text-anchor="middle">fi</text>
+
+  <!-- ground line -->
+  <line x1="200" y1="706" x2="1000" y2="706" stroke="#d6d2cb" stroke-width="2"/>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 07 — THE FORK</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Three labelled boxes holding variable values, with a large violet dollar sign">
+  <defs>
+    <pattern id="vars-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#vars-dots)"/>
+
+  <!-- big dollar sigil -->
+  <text x="112" y="240" font-family="Menlo, Consolas, monospace" font-size="84" fill="#7c3aed">$</text>
+  <path d="M180 200 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z" fill="#262626" opacity="0.4"/>
+
+  <!-- shelf -->
+  <rect x="160" y="590" width="880" height="16" fill="#262626"/>
+  <line x1="140" y1="648" x2="1060" y2="648" stroke="#d6d2cb" stroke-width="2"/>
+
+  <!-- box 1: name -->
+  <rect x="180" y="380" width="240" height="210" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <rect x="222" y="336" width="156" height="40" rx="6" fill="#7c3aed"/>
+  <text x="300" y="363" font-family="Menlo, Consolas, monospace" font-size="20" fill="#f8f5ef" text-anchor="middle">name</text>
+  <text x="300" y="498" font-family="Menlo, Consolas, monospace" font-size="24" fill="#262626" text-anchor="middle">"Gandalf"</text>
+
+  <!-- box 2: age -->
+  <rect x="500" y="380" width="200" height="210" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <rect x="540" y="336" width="120" height="40" rx="6" fill="#7c3aed"/>
+  <text x="600" y="363" font-family="Menlo, Consolas, monospace" font-size="20" fill="#f8f5ef" text-anchor="middle">age</text>
+  <text x="600" y="498" font-family="Menlo, Consolas, monospace" font-size="24" fill="#262626" text-anchor="middle">2019</text>
+
+  <!-- box 3: PATH -->
+  <rect x="780" y="380" width="280" height="210" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <rect x="860" y="336" width="120" height="40" rx="6" fill="#7c3aed"/>
+  <text x="920" y="363" font-family="Menlo, Consolas, monospace" font-size="20" fill="#f8f5ef" text-anchor="middle">PATH</text>
+  <text x="920" y="470" font-family="Menlo, Consolas, monospace" font-size="18" fill="#262626" text-anchor="middle">/usr/bin:/bin:</text>
+  <text x="920" y="498" font-family="Menlo, Consolas, monospace" font-size="18" fill="#262626" text-anchor="middle">/usr/local/bin</text>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 06 — LABELLED BOXES</text>
+</svg>

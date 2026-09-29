@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="A Windows-style window titled Git Bash containing a penguin in a small wizard hat">
+  <defs>
+    <pattern id="gitbash-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#gitbash-dots)"/>
+
+  <!-- window -->
+  <rect x="200" y="240" width="800" height="430" rx="10" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <rect x="200" y="240" width="800" height="50" rx="10" fill="#262626"/>
+  <rect x="200" y="274" width="800" height="16" fill="#262626"/>
+  <text x="232" y="273" font-family="Menlo, Consolas, monospace" font-size="18" fill="#f8f5ef">Git Bash</text>
+  <rect x="884" y="256" width="18" height="18" fill="none" stroke="#f8f5ef" stroke-width="2"/>
+  <rect x="922" y="256" width="18" height="18" fill="none" stroke="#f8f5ef" stroke-width="2"/>
+  <line x1="972" y1="256" x2="990" y2="274" stroke="#f8f5ef" stroke-width="2"/>
+  <line x1="990" y1="256" x2="972" y2="274" stroke="#f8f5ef" stroke-width="2"/>
+
+  <!-- prompt lines -->
+  <text x="240" y="352" font-family="Menlo, Consolas, monospace" font-size="21">
+    <tspan fill="#7c3aed">MINGW64</tspan><tspan fill="#262626"> ~ $ git --version</tspan>
+  </text>
+  <text x="240" y="392" font-family="Menlo, Consolas, monospace" font-size="21" fill="#777777">git version 2.46.0.windows.1</text>
+  <text x="240" y="440" font-family="Menlo, Consolas, monospace" font-size="21">
+    <tspan fill="#7c3aed">MINGW64</tspan><tspan fill="#262626"> ~ $ ssh wizard@tower</tspan>
+  </text>
+  <text x="240" y="488" font-family="Menlo, Consolas, monospace" font-size="21" fill="#7c3aed">MINGW64 ~ $</text>
+  <rect x="440" y="471" width="13" height="23" fill="#7c3aed"/>
+
+  <!-- penguin with wizard hat -->
+  <g>
+    <ellipse cx="852" cy="536" rx="66" ry="80" fill="#262626"/>
+    <ellipse cx="852" cy="556" rx="42" ry="54" fill="#fefefe"/>
+    <circle cx="830" cy="486" r="9" fill="#fefefe"/>
+    <circle cx="874" cy="486" r="9" fill="#fefefe"/>
+    <circle cx="832" cy="488" r="4" fill="#262626"/>
+    <circle cx="872" cy="488" r="4" fill="#262626"/>
+    <path d="M842 502 L862 502 L852 516 Z" fill="#fd4d25"/>
+    <ellipse cx="824" cy="616" rx="22" ry="9" fill="#fd4d25"/>
+    <ellipse cx="880" cy="616" rx="22" ry="9" fill="#fd4d25"/>
+    <path d="M818 444 C 826 414, 846 400, 872 396 L 892 452 C 866 442, 838 440, 818 444 Z" fill="#7c3aed"/>
+    <ellipse cx="856" cy="452" rx="52" ry="10" fill="#7c3aed"/>
+    <path d="M896 420 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 Z" fill="#f8f5ef"/>
+  </g>
+
+  <!-- ground line -->
+  <line x1="200" y1="716" x2="1000" y2="716" stroke="#d6d2cb" stroke-width="2"/>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 02 — GIT BASH, THE TREATY PORT</text>
+</svg>

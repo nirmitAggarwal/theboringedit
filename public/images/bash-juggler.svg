@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Three juggled balls labeled fg, bg and jobs, with a signal ladder table listing Ctrl+C, Ctrl+Z, TERM and KILL by escalating politeness">
+  <defs>
+    <pattern id="juggler-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#juggler-dots)"/>
+
+  <!-- sparkles -->
+  <path d="M340 200 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 Z" fill="#7c3aed" opacity="0.85"/>
+  <path d="M1010 180 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5 Z" fill="#262626" opacity="0.5"/>
+  <circle cx="880" cy="640" r="5" fill="#262626" opacity="0.35"/>
+
+  <!-- juggler (ink figure, one arm up) -->
+  <circle cx="380" cy="380" r="26" fill="#262626"/>
+  <path d="M380 406 C 380 470, 380 490, 380 520" stroke="#262626" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M366 434 C 320 410, 300 380, 296 350" stroke="#262626" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M394 434 C 440 400, 452 360, 458 330" stroke="#262626" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <line x1="366" y1="520" x2="352" y2="640" stroke="#262626" stroke-width="10" stroke-linecap="round"/>
+  <line x1="394" y1="520" x2="412" y2="640" stroke="#262626" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- the three balls in flight -->
+  <circle cx="300" cy="300" r="26" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="300" y="307" font-family="Menlo, Consolas, monospace" font-size="16" fill="#262626" text-anchor="middle">fg</text>
+  <circle cx="420" cy="270" r="26" fill="#7c3aed"/>
+  <text x="420" y="277" font-family="Menlo, Consolas, monospace" font-size="16" fill="#f8f5ef" text-anchor="middle">bg</text>
+  <circle cx="490" cy="330" r="26" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="490" y="337" font-family="Menlo, Consolas, monospace" font-size="15" fill="#262626" text-anchor="middle">jobs</text>
+
+  <!-- caption under juggler -->
+  <text x="380" y="690" font-family="Menlo, Consolas, monospace" font-size="18" fill="#777777" text-anchor="middle">Ctrl+Z — freeze mid-throw, resume with fg</text>
+
+  <!-- the signal ladder -->
+  <rect x="700" y="240" width="400" height="330" rx="12" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <text x="900" y="290" font-family="Menlo, Consolas, monospace" font-size="18" fill="#777777" text-anchor="middle" letter-spacing="4">THE SIGNAL LADDER</text>
+
+  <text x="740" y="348" font-family="Menlo, Consolas, monospace" font-size="17" fill="#262626">Ctrl+C</text>
+  <text x="1060" y="348" font-family="Menlo, Consolas, monospace" font-size="15" fill="#777777" text-anchor="end">"please stop" (ignorable)</text>
+
+  <line x1="730" y1="372" x2="1070" y2="372" stroke="#d6d2cb" stroke-width="2"/>
+
+  <text x="740" y="412" font-family="Menlo, Consolas, monospace" font-size="17" fill="#262626">Ctrl+Z</text>
+  <text x="1060" y="412" font-family="Menlo, Consolas, monospace" font-size="15" fill="#777777" text-anchor="end">"freeze. nobody gets hurt"</text>
+
+  <line x1="730" y1="436" x2="1070" y2="436" stroke="#d6d2cb" stroke-width="2"/>
+
+  <text x="740" y="476" font-family="Menlo, Consolas, monospace" font-size="17" fill="#7c3aed">kill</text>
+  <text x="1060" y="476" font-family="Menlo, Consolas, monospace" font-size="15" fill="#777777" text-anchor="end">TERM — "terminate, please"</text>
+
+  <line x1="730" y1="500" x2="1070" y2="500" stroke="#d6d2cb" stroke-width="2"/>
+
+  <text x="740" y="540" font-family="Menlo, Consolas, monospace" font-size="17" fill="#262626" font-weight="bold">kill -9</text>
+  <text x="1060" y="540" font-family="Menlo, Consolas, monospace" font-size="15" fill="#262626" text-anchor="end">KILL — no appeal, no mercy</text>
+
+  <!-- courtesy note -->
+  <text x="900" y="620" font-family="Menlo, Consolas, monospace" font-size="15" fill="#7c3aed" text-anchor="middle">etiquette: TERM first, KILL last</text>
+
+  <!-- ground line -->
+  <line x1="200" y1="730" x2="1000" y2="730" stroke="#d6d2cb" stroke-width="2"/>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 12 — THE PROCESS JUGGLER</text>
+</svg>

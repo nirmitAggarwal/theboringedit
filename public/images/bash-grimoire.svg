@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="An open grimoire labeled .bashrc on a stand, with pages showing aliases, a function and the PS1 prompt recipe, a quill resting beside it">
+  <defs>
+    <pattern id="grimoire-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#grimoire-dots)"/>
+
+  <!-- sparkles -->
+  <path d="M290 220 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 Z" fill="#7c3aed" opacity="0.85"/>
+  <path d="M960 190 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5 Z" fill="#262626" opacity="0.5"/>
+  <circle cx="900" cy="560" r="5" fill="#262626" opacity="0.35"/>
+
+  <!-- book stand -->
+  <path d="M600 560 L520 700 L680 700 Z" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+
+  <!-- open grimoire -->
+  <g transform="rotate(-4 600 420)">
+    <path d="M600 320 C 540 296, 420 296, 360 320 L 360 540 C 420 516, 540 516, 600 540 Z" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+    <path d="M600 320 C 660 296, 780 296, 840 320 L 840 540 C 780 516, 660 516, 600 540 Z" fill="#f8f5ef" stroke="#262626" stroke-width="4"/>
+    <line x1="600" y1="320" x2="600" y2="540" stroke="#262626" stroke-width="4"/>
+
+    <!-- left page: title + aliases -->
+    <text x="480" y="356" font-family="Menlo, Consolas, monospace" font-size="20" fill="#262626" text-anchor="middle">~/.bashrc</text>
+    <text x="392" y="396" font-family="Menlo, Consolas, monospace" font-size="15" fill="#262626">alias ll='ls -lahF'</text>
+    <text x="392" y="424" font-family="Menlo, Consolas, monospace" font-size="15" fill="#262626">alias ..='cd ..'</text>
+    <text x="392" y="452" font-family="Menlo, Consolas, monospace" font-size="15" fill="#7c3aed">alias gti='git'</text>
+    <text x="480" y="500" font-family="Menlo, Consolas, monospace" font-size="14" fill="#777777" text-anchor="middle">the typo annals</text>
+
+    <!-- right page: function + prompt -->
+    <text x="616" y="396" font-family="Menlo, Consolas, monospace" font-size="15" fill="#262626">mcd() { mkdir -p</text>
+    <text x="632" y="418" font-family="Menlo, Consolas, monospace" font-size="15" fill="#262626">"$1" &amp;&amp; cd "$1"; }</text>
+    <text x="616" y="452" font-family="Menlo, Consolas, monospace" font-size="15" fill="#7c3aed">PS1='\u:\w\$ '</text>
+    <text x="720" y="500" font-family="Menlo, Consolas, monospace" font-size="14" fill="#777777" text-anchor="middle">spells permanent</text>
+  </g>
+
+  <!-- quill -->
+  <g transform="rotate(24 950 560)">
+    <line x1="950" y1="470" x2="950" y2="610" stroke="#262626" stroke-width="7" stroke-linecap="round"/>
+    <path d="M950 470 C 934 486, 934 506, 950 516" fill="#7c3aed" opacity="0.85"/>
+    <path d="M950 610 l-9 22 18 0 Z" fill="#262626"/>
+  </g>
+
+  <!-- ground line -->
+  <line x1="240" y1="740" x2="960" y2="740" stroke="#d6d2cb" stroke-width="2"/>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 13 — THE CUSTOM GRIMOIRE</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="A terminal window wearing a wizard hat, with prompt lines inside">
+  <defs>
+    <pattern id="wizard-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#wizard-dots)"/>
+
+  <!-- sparkles -->
+  <path d="M300 220 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 Z" fill="#7c3aed" opacity="0.85"/>
+  <path d="M905 150 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5 Z" fill="#262626" opacity="0.5"/>
+  <path d="M1010 320 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4 Z" fill="#7c3aed" opacity="0.6"/>
+  <circle cx="960" cy="250" r="5" fill="#262626" opacity="0.35"/>
+  <circle cx="255" cy="330" r="4" fill="#262626" opacity="0.35"/>
+
+  <!-- wizard hat, tilted, sitting on the terminal -->
+  <g transform="rotate(-8 620 300)">
+    <path d="M614 108 C 600 190, 566 250, 512 292 L 756 292 C 706 244, 648 196, 634 108 Z" fill="#262626"/>
+    <ellipse cx="630" cy="298" rx="164" ry="24" fill="#262626"/>
+    <path d="M560 236 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z" fill="#7c3aed"/>
+    <circle cx="700" cy="220" r="5" fill="#7c3aed"/>
+  </g>
+
+  <!-- terminal window -->
+  <rect x="280" y="330" width="640" height="330" rx="14" fill="#fefefe" stroke="#262626" stroke-width="4"/>
+  <line x1="280" y1="380" x2="920" y2="380" stroke="#262626" stroke-width="3"/>
+  <circle cx="312" cy="355" r="8" fill="#262626"/>
+  <circle cx="340" cy="355" r="8" fill="#262626" opacity="0.55"/>
+  <circle cx="368" cy="355" r="8" fill="#262626" opacity="0.25"/>
+  <text x="600" y="362" font-family="Menlo, Consolas, monospace" font-size="17" fill="#777777" text-anchor="middle">bash — 80×24</text>
+
+  <!-- prompt lines -->
+  <text x="320" y="440" font-family="Menlo, Consolas, monospace" font-size="22">
+    <tspan fill="#7c3aed">~ $</tspan><tspan fill="#262626"> whoami</tspan>
+  </text>
+  <text x="320" y="480" font-family="Menlo, Consolas, monospace" font-size="22" fill="#262626">wizard</text>
+  <text x="320" y="530" font-family="Menlo, Consolas, monospace" font-size="22">
+    <tspan fill="#7c3aed">~ $</tspan><tspan fill="#262626"> bash hello.sh</tspan>
+  </text>
+  <text x="320" y="570" font-family="Menlo, Consolas, monospace" font-size="22" fill="#777777">hello, plane of mortals</text>
+  <text x="320" y="620" font-family="Menlo, Consolas, monospace" font-size="22" fill="#7c3aed">~ $</text>
+  <rect x="376" y="603" width="13" height="23" fill="#7c3aed"/>
+
+  <!-- ground line -->
+  <line x1="200" y1="706" x2="1000" y2="706" stroke="#d6d2cb" stroke-width="2"/>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 01 — THE PROMPT</text>
+</svg>

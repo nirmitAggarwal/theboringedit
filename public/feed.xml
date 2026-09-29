@@ -5,9 +5,165 @@
     <link>https://www.theboringedit.in</link>
     <description>A quiet, personal, editorial blog by Nirmit Aggarwal — warm paper, ink text, one loud orange. Written in markdown, compiled to static ink.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 12:00:00 GMT</lastBuildDate>
     <generator>The Boring Edit static pipeline</generator>
     <atom:link href="https://www.theboringedit.in/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash: Defensive Wizardry</title>
+      <link>https://www.theboringedit.in/blog/bash-defensive-wizardry</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-defensive-wizardry</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 11 of the bash crash course: making scripts trustworthy — the four-letter ward set -euo pipefail, trap for cleanup magic, and bash -x for seeing what the spell actually casts.</description>
+      <category>bash</category>
+      <category>debugging</category>
+      <category>robustness</category>
+    </item>
+    <item>
+      <title>Bash: Forks in the Road</title>
+      <link>https://www.theboringedit.in/blog/bash-forks-in-the-road</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-forks-in-the-road</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 07 of the bash crash course: conditionals — if/elif/else, the test brackets and their gotchas, file existence checks, and case, the most readable spell in the book.</description>
+      <category>bash</category>
+      <category>if</category>
+      <category>case</category>
+      <category>conditionals</category>
+    </item>
+    <item>
+      <title>Bash: Jobs &amp; Signals</title>
+      <link>https://www.theboringedit.in/blog/bash-jobs-and-signals</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-jobs-and-signals</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 12 of the bash crash course: process control — background jobs with &amp;, the Ctrl-Z suspend dance, fg/bg/jobs, kill and the signal ladder, nice, and nohup for spells that outlive their summoner.</description>
+      <category>bash</category>
+      <category>jobs</category>
+      <category>signals</category>
+      <category>kill</category>
+    </item>
+    <item>
+      <title>Bash: Labelled Boxes</title>
+      <link>https://www.theboringedit.in/blog/bash-labelled-boxes</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-labelled-boxes</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 06 of the bash crash course: variables and quoting rules (the #1 source of beginner bugs), command substitution, environment variables, and how $PATH decides which spells you can cast.</description>
+      <category>bash</category>
+      <category>variables</category>
+      <category>quoting</category>
+    </item>
+    <item>
+      <title>Bash: On Every Machine</title>
+      <link>https://www.theboringedit.in/blog/bash-on-every-machine</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-on-every-machine</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 02 of the bash crash course: getting a real shell on Windows (Git Bash vs WSL), what macOS&apos;s zsh switch means, and the keyboard habits — Tab, Ctrl-R, history — that make you fast.</description>
+      <category>bash</category>
+      <category>windows</category>
+      <category>wsl</category>
+      <category>setup</category>
+    </item>
+    <item>
+      <title>Bash: Pipes &amp; Plumbing</title>
+      <link>https://www.theboringedit.in/blog/bash-pipes-plumbing</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-pipes-plumbing</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 05 of the bash crash course: stdin, stdout, stderr — and how pipes and redirection turn twenty small commands into an infinite assembly line.</description>
+      <category>bash</category>
+      <category>pipes</category>
+      <category>redirection</category>
+    </item>
+    <item>
+      <title>Bash: Text Alchemy</title>
+      <link>https://www.theboringedit.in/blog/bash-text-alchemy</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-text-alchemy</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 10 of the bash crash course: the text-processing battery — sed find-and-replace, awk column surgery, cut, sort, uniq, tr — and the pipelines that glue them into one-liners of mass productivity.</description>
+      <category>bash</category>
+      <category>sed</category>
+      <category>awk</category>
+      <category>text-processing</category>
+    </item>
+    <item>
+      <title>Bash: The Custom Grimoire</title>
+      <link>https://www.theboringedit.in/blog/bash-the-custom-grimoire</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-the-custom-grimoire</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 13 of the bash crash course: making everything permanent — the .bashrc file, aliases, functions you keep forever, and a two-line prompt upgrade that saves you ten questions a day.</description>
+      <category>bash</category>
+      <category>bashrc</category>
+      <category>dotfiles</category>
+    </item>
+    <item>
+      <title>Bash: The Hunters</title>
+      <link>https://www.theboringedit.in/blog/bash-the-hunters</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-the-hunters</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 04 of the bash crash course: a deep dive into grep and find — searching text inside files and files inside machines — plus xargs, the spell that chains the hunt to the kill.</description>
+      <category>bash</category>
+      <category>grep</category>
+      <category>find</category>
+    </item>
+    <item>
+      <title>Bash: The Loop</title>
+      <link>https://www.theboringedit.in/blog/bash-the-loop</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-the-loop</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 08 of the bash crash course: loops — for over globs and lists, while read over lines, C-style counting, break/continue, and the batch moves that turn an hour of clicking into one line.</description>
+      <category>bash</category>
+      <category>loops</category>
+      <category>for</category>
+      <category>while</category>
+    </item>
+    <item>
+      <title>Bash: The Prompt</title>
+      <link>https://www.theboringedit.in/blog/bash-the-prompt</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-the-prompt</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 01 of a 15-part bash crash course: what a shell actually is, how to read the prompt, your first commands, and how to summon the ancient tome (the man page) when you forget the words.</description>
+      <category>bash</category>
+      <category>shell</category>
+      <category>basics</category>
+    </item>
+    <item>
+      <title>Bash: The Quest Board</title>
+      <link>https://www.theboringedit.in/blog/bash-the-quest-board</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-the-quest-board</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 15, the finale of the bash crash course: six complete capstone scripts — bulk renamer, rotating backup, site monitor, project scaffolder, disk hunter, and a terminal quiz game — each built from the previous fourteen parts.</description>
+      <category>bash</category>
+      <category>projects</category>
+      <category>finale</category>
+    </item>
+    <item>
+      <title>Bash: The Spell Factory</title>
+      <link>https://www.theboringedit.in/blog/bash-the-spell-factory</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-the-spell-factory</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 09 of the bash crash course: packaging logic into functions, feeding them arguments, returning codes instead of values, and the src-the-file trick that turns your terminal into a workshop.</description>
+      <category>bash</category>
+      <category>functions</category>
+      <category>scripts</category>
+    </item>
+    <item>
+      <title>Bash: The Spellbook</title>
+      <link>https://www.theboringedit.in/blog/bash-the-spellbook</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-the-spellbook</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 03 of the bash crash course: the everyday file commands — ls, cd, cp, mv, rm and friends — plus glob wildcards, the closest thing computing has to actual magic.</description>
+      <category>bash</category>
+      <category>commands</category>
+      <category>files</category>
+    </item>
+    <item>
+      <title>Bash: The Wider Realm</title>
+      <link>https://www.theboringedit.in/blog/bash-the-wider-realm</link>
+      <guid isPermaLink="true">https://www.theboringedit.in/blog/bash-the-wider-realm</guid>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Part 14 of the bash crash course: bash beyond your machine — SSH and keys, cron schedules, git hooks, and CI pipelines. The payoff chapter: why everything before this was worth it.</description>
+      <category>bash</category>
+      <category>ssh</category>
+      <category>cron</category>
+      <category>ci</category>
+    </item>
     <item>
       <title>Hello, The Boring Edit</title>
       <link>https://www.theboringedit.in/blog/hello-the-boring-edit</link>

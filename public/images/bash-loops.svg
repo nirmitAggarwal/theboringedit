@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="A big circular loop arrow around a for statement, with a break door at the top and a continue chip at the side">
+  <defs>
+    <pattern id="loop-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#262626" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f5ef"/>
+  <rect width="1200" height="800" fill="url(#loop-dots)"/>
+
+  <!-- the loop ring -->
+  <circle cx="600" cy="450" r="175" fill="none" stroke="#262626" stroke-width="6"/>
+  <circle cx="600" cy="450" r="140" fill="none" stroke="#d6d2cb" stroke-width="2"/>
+  <path d="M740 315 L772 283 L778 316 L745 348 Z" fill="#262626"/>
+  <circle cx="600" cy="275" r="5" fill="#262626"/>
+  <circle cx="600" cy="625" r="5" fill="#262626"/>
+  <circle cx="425" cy="450" r="5" fill="#262626"/>
+  <circle cx="775" cy="450" r="5" fill="#262626"/>
+
+  <!-- center statement -->
+  <rect x="452" y="422" width="296" height="56" rx="8" fill="#fefefe" stroke="#262626" stroke-width="3"/>
+  <text x="600" y="458" font-family="Menlo, Consolas, monospace" font-size="22" fill="#262626" text-anchor="middle">for file in *.txt</text>
+
+  <!-- break door at the top -->
+  <rect x="560" y="196" width="80" height="64" rx="6" fill="#7c3aed"/>
+  <text x="600" y="236" font-family="Menlo, Consolas, monospace" font-size="20" fill="#f8f5ef" text-anchor="middle">break</text>
+  <line x1="600" y1="150" x2="600" y2="188" stroke="#7c3aed" stroke-width="4"/>
+  <path d="M600 142 l-9 16 l18 0 Z" fill="#7c3aed"/>
+  <text x="652" y="158" font-family="Menlo, Consolas, monospace" font-size="17" fill="#7c3aed">freedom</text>
+
+  <!-- continue chip -->
+  <rect x="860" y="430" width="140" height="44" rx="6" fill="#fefefe" stroke="#262626" stroke-width="3"/>
+  <text x="930" y="459" font-family="Menlo, Consolas, monospace" font-size="19" fill="#262626" text-anchor="middle">continue</text>
+  <path d="M858 452 C 806 452, 806 500, 856 508" fill="none" stroke="#777777" stroke-width="3" stroke-dasharray="7 7"/>
+  <path d="M862 510 l-18 2 l10 15 Z" fill="#777777"/>
+
+  <!-- counter chip -->
+  <rect x="180" y="560" width="190" height="44" rx="6" fill="#fefefe" stroke="#262626" stroke-width="3"/>
+  <text x="275" y="589" font-family="Menlo, Consolas, monospace" font-size="19" fill="#262626" text-anchor="middle">i = i + 1</text>
+  <line x1="372" y1="582" x2="428" y2="548" stroke="#777777" stroke-width="3" stroke-dasharray="7 7"/>
+  <path d="M432 545 l-19 -1 l8 16 Z" fill="#777777"/>
+
+  <text x="80" y="92" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="6" fill="#777777">FIG. 08 — THE LOOP</text>
+</svg>

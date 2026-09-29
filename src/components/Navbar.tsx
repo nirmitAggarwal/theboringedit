@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { ThemeToggle } from "./ThemeToggle";
+import { SearchPalette, SearchTrigger } from "./Search";
 
 const links = [
   { to: "/", label: "Home" },
@@ -16,11 +17,32 @@ const navLinkClass = ({ isActive }: { isActive: boolean }) =>
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const { pathname } = useLocation();
   const shellRef = useRef<HTMLDivElement>(null);
 
   // Route changed → close the sheet (also covers browser back/forward)
   useEffect(() => setOpen(false), [pathname]);
+
+  // Global hotkeys: ⌘K / Ctrl+K toggles search, "/" opens it when not typing.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        setSearchOpen((v) => !v);
+      } else if (e.key === "/" && !searchOpen) {
+        const t = e.target as HTMLElement | null;
+        const typing =
+          t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable);
+        if (!typing) {
+          e.preventDefault();
+          setSearchOpen(true);
+        }
+      }
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [searchOpen]);
 
   // While open: close on Escape or any click outside the navbar shell
   useEffect(() => {
@@ -70,11 +92,14 @@ export function Navbar() {
               </NavLink>
             ))}
             <span className="h-5 w-px bg-border mx-1" aria-hidden="true" />
+            <SearchTrigger onOpen={() => setSearchOpen(true)} />
+            <span className="h-5 w-px bg-border mx-1" aria-hidden="true" />
             <ThemeToggle />
           </nav>
 
           {/* ——— Mobile controls ——— */}
           <div className="pill flex md:hidden h-11 items-center gap-0.5 px-1.5">
+            <SearchTrigger onOpen={() => setSearchOpen(true)} />
             <ThemeToggle />
             <button
               type="button"
@@ -130,9 +155,14 @@ export function Navbar() {
                 </NavLink>
               </li>
             ))}
+            <li className="border-t border-border/70 mt-1 pt-1">
+              <SearchTrigger inMenu onOpen={() => setSearchOpen(true)} />
+            </li>
           </ul>
         </nav>
       </div>
+
+      <SearchPalette open={searchOpen} onClose={() => setSearchOpen(false)} />
     </header>
   );
 }
